@@ -102,7 +102,7 @@ ul li:last-child {
 }
 
 .color-swatch-3 {
-  background-color: var(--sidebar-bg-color);
+  background-color: var(--sidebar-a-color);
 }
 
 .color-swatch-4 {
@@ -110,7 +110,7 @@ ul li:last-child {
 }
 
 .color-swatch-5 {
-  background-color: var(--sidebar-a-color);
+  background-color: var(--sidebar-bg-color);
 }
 
 .textures li {
@@ -179,17 +179,18 @@ button.btnCollapse:hover {
 
 
 h1 {
-  font-size: 2.4rem;
-  font-weight: bold;
   font-family: var(--primary-font);
   font-weight: 700;
   font-style: normal;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .h2-sample {
   font-family: var(--primary-font);
-  color: var(--link-color);
-  font-size: 1.25rem;
+  font-size: 1.1em;
+  color: var(--sidebar-a-color);
 }
 
 
@@ -200,6 +201,14 @@ p[class*="font-details-"] {
   font-size: 0.75rem;
   font-family: var(--primary-font);
   color: #6f6f6f;
+}
+.typography-sample{
+  font-family: var(--primary-font);
+      font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
 }
 
 .adjectives ul {
