@@ -149,16 +149,9 @@ button.btnCollapse {
 button.btnCollapse:hover {
   background-color: var(--main-color);
   color: var(--accent-color);
+  cursor: pointer;
 }
-.btn-layout {
-    display: flex;
-    align-items: center;
-    background-color: var(--accent-color);
-    color: var(--main-color);
-}
-.btn-layout:hover {
-   cursor: pointer;
-}
+
 .btn {
     display: inline-block;
     font-weight: 400;
